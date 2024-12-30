@@ -10,7 +10,7 @@ fi
 #-----------------------------------------------------------
 
 #RetroFlag pw io ;2:in ;3:in ;4:in ;14:out 1----------------------------------------
-File=/boot/config.txt
+File=/storage/boot/config.txt
 wget -O  "/overlays/RetroFlag_pw_io.dtbo" "$SourcePath/RetroFlag_pw_io.dtbo"
 if grep -q "RetroFlag_pw_io" "$File";
 	then
